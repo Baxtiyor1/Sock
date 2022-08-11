@@ -1,14 +1,16 @@
-.intro{
+.intro {
     margin-top: 66px;
     background-color: #D7C7AD;
-    &__wrapper{
+
+    &__wrapper {
         padding: 55px 0;
         // height: 100vh;
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
-    &__aside{
+
+    &__aside {
         margin-right: 30px;
         width: 520px;
         max-width: 100%;
@@ -16,20 +18,23 @@
         flex-direction: column;
         align-items: flex-start;
     }
-    &__title{
+
+    &__title {
         margin-bottom: 20px;
         font-weight: 700;
         font-size: 30px;
         line-height: 130%;
         color: #000000;
     }
-    &__text{
+
+    &__text {
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
         color: #000000;
     }
-    &__bside{
+
+    &__bside {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -41,32 +46,77 @@
         border-radius: 60% 35% 60% 40%;
         box-shadow: 4px 4px 10px #fff;
     }
-    &__pic{
+
+    &__pic {
         object-fit: cover;
         width: 100%;
     }
-    &__button-bg{
+
+    &__button-bg {
         width: 100%;
         height: 100px;
-background: linear-gradient(183deg, #D7C7AD 50%, #f3ebeb 50%);
+        background: linear-gradient(183deg, #D7C7AD 50%, #f3ebeb 50%);
+    }
+
+    &__decbox {
+        padding: 15px;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 8;
+        bottom: 70px;
+        right: 70px;
+        background-color: rgb(255, 0, 0);
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.5s;
+        animation-name: phoneAnim;
+        animation-duration: 0.5s;
+        animation-iteration-count: infinite;
+
+        &:hover {
+            background-color: rgb(231, 104, 104);
+        }
+        & a{
+            width: 35px;
+            height: 35px;
+        }
+    }
+
+    &__dec {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@keyframes phoneAnim {
+    0% {
+        box-shadow: 0 0 5px 5px rgba(255, 0, 0, 0.836);
+    }
+
+    100% {
+        box-shadow: 0 0 5px 5px rgba(255, 0, 0, 0.5);
     }
 }
 
 @media screen and (max-width: 1150px) {
-    .intro{
-        &__bside{
+    .intro {
+        &__bside {
             height: 370px;
         }
     }
 }
 
 @media screen and (max-width: 769px) {
-    .intro{
+    .intro {
         margin-top: 56px;
-        &__wrapper{
+
+        &__wrapper {
             flex-direction: column;
         }
-        &__aside{
+
+        &__aside {
             width: 100%;
             margin-right: 0;
             margin-bottom: 20px;
@@ -76,8 +126,8 @@ background: linear-gradient(183deg, #D7C7AD 50%, #f3ebeb 50%);
 }
 
 @media screen and (max-width: 425px) {
-    .intro{
-        &__bside{
+    .intro {
+        &__bside {
             height: 280px;
         }
     }

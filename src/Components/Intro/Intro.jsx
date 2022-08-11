@@ -5,6 +5,7 @@ import "./Intro.scss"
 
 //Images
 import intro__fon from "../../Assets/Images/intro_fon.png"
+import phone from "../../Assets/Images/phone.svg"
 
 function Intro() {
     return (
@@ -21,6 +22,11 @@ function Intro() {
                 </div>
             </div>
             <div className="intro__button-bg"></div>
+            <div className="intro__decbox">
+                <a href="tel: +998993746920">
+                    <img className="intro__dec" src={phone} alt="phone" />
+                </a>
+            </div>
         </section>
     )
 }
