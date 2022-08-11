@@ -40,7 +40,7 @@ function HomeProduct() {
                             <div className="hprod__textbox">
                                 <h3 className="hprod__name">Lorem ipsum dolor</h3>
                                 <p className="hprod__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, deleniti?</p>
-                                <p className="hprod__price"><b>Price</b>: <strong>25 000 so'm</strong></p>
+                                <p className="hprod__price"><b>Price</b>: <strong>50 000 so'm</strong></p>
                             </div>
                         </li>
                         <li className="hprod__item">
