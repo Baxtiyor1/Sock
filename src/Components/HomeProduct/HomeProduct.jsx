@@ -4,7 +4,6 @@ import "./HomeProduct.scss";
 //images
 import sock_2 from "../../Assets/Images/sock-2.png";
 import sock_3 from "../../Assets/Images/sock-3.png";
-import sock_4 from "../../Assets/Images/sock-4.png";
 import sock_5 from "../../Assets/Images/sock-5.png";
 import sock_6 from "../../Assets/Images/sock-6.png";
 import sock_7 from "../../Assets/Images/sock-7.png";
@@ -241,19 +240,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>2.5$ (AUD)</strong>
-                </p>
-              </div>
-            </li>
-            <li className="hprod__item">
-              <div className="hprod__imgbox">
-                <img className="hprod__img" src={sock_4} alt="sock_img" />
-              </div>
-              <div className="hprod__textbox">
-                <h3 className="hprod__name">Quality socks</h3>
-                <p className="hprod__text">Available for sale</p>
-
-                <p className="hprod__price">
-                  <b>Price</b>: <strong>2$ (AUD)</strong>
                 </p>
               </div>
             </li>
