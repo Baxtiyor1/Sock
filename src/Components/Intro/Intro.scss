@@ -58,46 +58,6 @@
         background: linear-gradient(183deg, #D7C7AD 50%, #f3ebeb 50%);
     }
 
-    &__decbox {
-        padding: 15px;
-        position: fixed;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 8;
-        bottom: 70px;
-        right: 70px;
-        background-color: rgb(255, 0, 0);
-        border-radius: 50%;
-        cursor: pointer;
-        transition: 0.5s;
-        animation-name: phoneAnim;
-        animation-duration: 0.5s;
-        animation-iteration-count: infinite;
-
-        &:hover {
-            background-color: rgb(231, 104, 104);
-        }
-        & a{
-            width: 35px;
-            height: 35px;
-        }
-    }
-
-    &__dec {
-        width: 35px;
-        height: 35px;
-    }
-}
-
-@keyframes phoneAnim {
-    0% {
-        box-shadow: 0 0 5px 5px rgba(255, 0, 0, 0.836);
-    }
-
-    100% {
-        box-shadow: 0 0 5px 5px rgba(255, 0, 0, 0.5);
-    }
 }
 
 @media screen and (max-width: 1150px) {

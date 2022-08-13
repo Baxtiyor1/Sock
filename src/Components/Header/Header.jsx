@@ -33,6 +33,9 @@ function Header() {
                                 <a className="header__link" href="/">About us</a>
                             </li>
                             <li className="header__item">
+                                <a className="header__link" href="/contact">Contact</a>
+                            </li>
+                            <li className="header__item">
                                 <a className="header__link" href="tel: +61450997221">+61 450 997 221</a>
                             </li>
                         </ul>

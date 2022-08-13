@@ -24,8 +24,6 @@ import socks_6 from "../../Assets/Images/socks-6.png";
 import socks_11 from "../../Assets/Images/Background__1.png";
 import socks_14 from "../../Assets/Images/danvers-5.jpg";
 import socks_15 from "../../Assets/Images/intro_fon.png";
-import socks_18 from "../../Assets/Images/removebg-preview.png";
-import socks_19 from "../../Assets/Images/seaford-5.jpg";
 import socks_20 from "../../Assets/Images/sock1-1.png";
 import socks_21 from "../../Assets/Images/sock1-2.png";
 import socks_22 from "../../Assets/Images/sock1-3.png";
@@ -33,13 +31,8 @@ import socks_23 from "../../Assets/Images/sock1-4.png";
 import socks_24 from "../../Assets/Images/sock1-5.png";
 import socks_25 from "../../Assets/Images/sock1-6.png";
 import socks_26 from "../../Assets/Images/sock1-7.png";
-import socks_27 from "../../Assets/Images/sock1-8.png";
-import socks_28 from "../../Assets/Images/sock1-9.png";
 import socks_29 from "../../Assets/Images/sock1-10.png";
-import socks_30 from "../../Assets/Images/top-sock.jpg";
 import socks_31 from "../../Assets/Images/Womens6-PackTurnCuffSock--1.jpg";
-import socks_32 from "../../Assets/Images/Womens6-PackTurnCuffSock--2.jpg";
-import socks_33 from "../../Assets/Images/Womens6-PackTurnCuffSock--3.jpg";
 import socks_34 from "../../Assets/Images/Womens6-PackTurnCuffSock4--6.jpg";
 
 function HomeProduct() {

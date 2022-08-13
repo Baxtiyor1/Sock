@@ -1,13 +1,17 @@
+import { Routes, Route } from 'react-router-dom';
+
 import './App.scss';
 
 //page
 import Home from './Page/Home';
+import Contact from './Page/Contact';
 
 function App() {
   return (
-    <>
-      <Home />
-    </>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/contact' element={<Contact />} />
+    </Routes>
   );
 }
 
