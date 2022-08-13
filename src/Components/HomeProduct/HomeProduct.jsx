@@ -17,11 +17,9 @@ import t_shirt_22 from "../../Assets/Images/t-shirt-3.png";
 import stirling_1 from "../../Assets/Images/stirling-1.jpg";
 import socks_2 from "../../Assets/Images/socks-2.png";
 import socks_3 from "../../Assets/Images/socks-3.png";
-import socks_4 from "../../Assets/Images/socks-4.png";
 import socks_5 from "../../Assets/Images/socks-5.png";
-import socks_6 from "../../Assets/Images/socks-6.png";
 import socks_11 from "../../Assets/Images/Background__1.png";
-      import socks_15 from "../../Assets/Images/intro_fon.png";
+import socks_15 from "../../Assets/Images/intro_fon.png";
 import socks_20 from "../../Assets/Images/sock1-1.png";
 import socks_21 from "../../Assets/Images/sock1-2.png";
 import socks_22 from "../../Assets/Images/sock1-3.png";
@@ -30,7 +28,6 @@ import socks_24 from "../../Assets/Images/sock1-5.png";
 import socks_25 from "../../Assets/Images/sock1-6.png";
 import socks_26 from "../../Assets/Images/sock1-7.png";
 import socks_29 from "../../Assets/Images/sock1-10.png";
-import socks_31 from "../../Assets/Images/Womens6-PackTurnCuffSock--1.jpg";
 import socks_34 from "../../Assets/Images/Womens6-PackTurnCuffSock4--6.jpg";
 import socks11 from "../../Assets/Images/socks11.png";
 import socks12 from "../../Assets/Images/socks12.png";
@@ -167,7 +164,7 @@ function HomeProduct() {
                 </p>
               </div>
             </li>
-           
+
             <li className="hprod__item">
               <div className="hprod__imgbox">
                 <img className="hprod__img" src={stirling_1} alt="sock_img" />
@@ -181,7 +178,7 @@ function HomeProduct() {
                 </p>
               </div>
             </li>
-          
+
             <li className="hprod__item">
               <div className="hprod__imgbox">
                 <img className="hprod__img" src={socks_34} alt="sock_img" />
@@ -515,7 +512,6 @@ function HomeProduct() {
                 <h3 className="hprod__name">Quality socks</h3>
                 <p className="hprod__text">Available for sale</p>
 
-
                 <p className="hprod__price">
                   <b>Price</b>: <strong>1$ (AUD)</strong>
                 </p>
@@ -539,11 +535,10 @@ function HomeProduct() {
                 <img className="hprod__img" src={t_shirt_1} alt="sock_img" />
               </div>
               <div className="hprod__textbox">
-              <h3 className="hprod__name">Men's underwear</h3>
+                <h3 className="hprod__name">Men's underwear</h3>
                 <p className="hprod__text">Available for sale</p>
 
                 <p className="hprod__price">
-                  
                   <b>Price</b>: <strong>25 000 so'm</strong>
                 </p>
               </div>
@@ -553,7 +548,7 @@ function HomeProduct() {
                 <img className="hprod__img" src={t_shirt_2} alt="sock_img" />
               </div>
               <div className="hprod__textbox">
-              <h3 className="hprod__name">Men's underwear</h3>
+                <h3 className="hprod__name">Men's underwear</h3>
                 <p className="hprod__text">Available for sale</p>
 
                 <p className="hprod__price">
@@ -566,7 +561,7 @@ function HomeProduct() {
                 <img className="hprod__img" src={t_shirt_22} alt="sock_img" />
               </div>
               <div className="hprod__textbox">
-              <h3 className="hprod__name">Men's underwear</h3>
+                <h3 className="hprod__name">Men's underwear</h3>
                 <p className="hprod__text">Available for sale</p>
 
                 <p className="hprod__price">
