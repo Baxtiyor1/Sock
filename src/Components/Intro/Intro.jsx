@@ -17,7 +17,7 @@ function Intro() {
               We offer wholesale delivery of socks made of high quality
               materials to Istanbul (Turkey) ports. We can produce socks of any
               composition, design and color according to the customer's request.
-              our product is made of 100% cotton. The quality of Uzbek cotton is
+              Our product is made of 100% cotton. The quality of Uzbek cotton is
               excellent.
             </p>
           </div>

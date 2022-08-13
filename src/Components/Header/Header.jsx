@@ -51,6 +51,9 @@ function Header() {
                                 <a className="header__link" href="#product">Products</a>
                             </li>
                             <li className="header__modal--item">
+                                <a className="header__link" href="/contact">Contact</a>
+                            </li>
+                            <li className="header__modal--item">
                                 <a className="header__link" href="/">About us</a>
                             </li>
                         </ul>
