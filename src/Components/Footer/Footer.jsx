@@ -14,15 +14,15 @@ function Footer() {
                     <a href="/"><h2 className="header__logo">SOFIA</h2></a>
                     <ul className="footer__list">
                         <li className="footer__item">
-                            <a href="/" className="footer__link">
+                            <a href="mailto:alfarealdilafruz@gmail.com" target={"_blank"} rel="noreferrer" className="footer__link">
                                 <img className="footer__icon" src={email} alt="email_ion" />
                                 Email
                             </a>
                         </li>
                         <li className="footer__item">
-                            <a href="/" className="footer__link">
+                            <a href="https://telegram.me/dilafruz_alfa_real" target={"_blank"} rel="noreferrer" className="footer__link">
                                 <img className="footer__icon" src={telegram} alt="telegram_ion" />
-                                Email
+                                Telegram
                             </a>
                         </li>
                     </ul>
