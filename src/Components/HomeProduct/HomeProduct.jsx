@@ -11,20 +11,14 @@ import sock_9 from "../../Assets/Images/sock-9.jpg";
 import sock_10 from "../../Assets/Images/sock-10.png";
 import top_sock from "../../Assets/Images/top-sock.jpg";
 import top_sock_1 from "../../Assets/Images/top-sock-1.png";
-import t_shirt_1 from "../../Assets/Images/t-shirt-1.png";
-import t_shirt_2 from "../../Assets/Images/t-shirt-2.png";
-import t_shirt_22 from "../../Assets/Images/t-shirt-3.png";
 import stirling_1 from "../../Assets/Images/stirling-1.jpg";
 import socks_2 from "../../Assets/Images/socks-2.png";
 import socks_3 from "../../Assets/Images/socks-3.png";
 import socks_5 from "../../Assets/Images/socks-5.png";
-import socks_11 from "../../Assets/Images/Background__1.png";
 import socks_15 from "../../Assets/Images/intro_fon.png";
-import socks_20 from "../../Assets/Images/sock1-1.png";
 import socks_21 from "../../Assets/Images/sock1-2.png";
 import socks_22 from "../../Assets/Images/sock1-3.png";
 import socks_23 from "../../Assets/Images/sock1-4.png";
-import socks_24 from "../../Assets/Images/sock1-5.png";
 import socks_25 from "../../Assets/Images/sock1-6.png";
 import socks_26 from "../../Assets/Images/sock1-7.png";
 import socks_29 from "../../Assets/Images/sock1-10.png";
@@ -40,7 +34,6 @@ import socks33 from "../../Assets/Images/socks33.png";
 import socks35 from "../../Assets/Images/socks35.png";
 import socks36 from "../../Assets/Images/socks36.png";
 import socks37 from "../../Assets/Images/socks37.png";
-import socks38 from "../../Assets/Images/socks38.png";
 import socks39 from "../../Assets/Images/socks39.png";
 import socks40 from "../../Assets/Images/socks40.png";
 
@@ -350,19 +343,6 @@ function HomeProduct() {
             </li>
             <li className="hprod__item">
               <div className="hprod__imgbox">
-                <img className="hprod__img" src={socks38} alt="sock_img" />
-              </div>
-              <div className="hprod__textbox">
-                <h3 className="hprod__name">Quality socks</h3>
-                <p className="hprod__text">Available for sale</p>
-
-                <p className="hprod__price">
-                  <b>Price</b>: <strong>1$ (AUD)</strong>
-                </p>
-              </div>
-            </li>
-            <li className="hprod__item">
-              <div className="hprod__imgbox">
                 <img className="hprod__img" src={socks39} alt="sock_img" />
               </div>
               <div className="hprod__textbox">
@@ -428,19 +408,6 @@ function HomeProduct() {
             </li>
             <li className="hprod__item">
               <div className="hprod__imgbox">
-                <img className="hprod__img" src={socks_20} alt="sock_img" />
-              </div>
-              <div className="hprod__textbox">
-                <h3 className="hprod__name">Quality socks</h3>
-                <p className="hprod__text">Available for sale</p>
-
-                <p className="hprod__price">
-                  <b>Price</b>: <strong>1$ (AUD)</strong>
-                </p>
-              </div>
-            </li>
-            <li className="hprod__item">
-              <div className="hprod__imgbox">
                 <img className="hprod__img" src={socks_21} alt="sock_img" />
               </div>
               <div className="hprod__textbox">
@@ -468,19 +435,6 @@ function HomeProduct() {
             <li className="hprod__item">
               <div className="hprod__imgbox">
                 <img className="hprod__img" src={socks_23} alt="sock_img" />
-              </div>
-              <div className="hprod__textbox">
-                <h3 className="hprod__name">Quality socks</h3>
-                <p className="hprod__text">Available for sale</p>
-
-                <p className="hprod__price">
-                  <b>Price</b>: <strong>1.5$ (AUD)</strong>
-                </p>
-              </div>
-            </li>
-            <li className="hprod__item">
-              <div className="hprod__imgbox">
-                <img className="hprod__img" src={socks_24} alt="sock_img" />
               </div>
               <div className="hprod__textbox">
                 <h3 className="hprod__name">Quality socks</h3>
