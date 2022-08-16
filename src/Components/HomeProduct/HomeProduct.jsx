@@ -529,59 +529,7 @@ function HomeProduct() {
                   <b>Price</b>: <strong>1$ (AUD)</strong>
                 </p>
               </div>
-            </li>
-            <li className="hprod__item">
-              <div className="hprod__imgbox">
-                <img className="hprod__img" src={t_shirt_1} alt="sock_img" />
-              </div>
-              <div className="hprod__textbox">
-                <h3 className="hprod__name">Men's underwear</h3>
-                <p className="hprod__text">Available for sale</p>
-
-                <p className="hprod__price">
-                  <b>Price</b>: <strong>25 000 so'm</strong>
-                </p>
-              </div>
-            </li>
-            <li className="hprod__item">
-              <div className="hprod__imgbox">
-                <img className="hprod__img" src={t_shirt_2} alt="sock_img" />
-              </div>
-              <div className="hprod__textbox">
-                <h3 className="hprod__name">Men's underwear</h3>
-                <p className="hprod__text">Available for sale</p>
-
-                <p className="hprod__price">
-                  <b>Price</b>: <strong>25 000 so'm</strong>
-                </p>
-              </div>
-            </li>
-            <li className="hprod__item">
-              <div className="hprod__imgbox">
-                <img className="hprod__img" src={t_shirt_22} alt="sock_img" />
-              </div>
-              <div className="hprod__textbox">
-                <h3 className="hprod__name">Men's underwear</h3>
-                <p className="hprod__text">Available for sale</p>
-
-                <p className="hprod__price">
-                  <b>Price</b>: <strong>25 000 so'm</strong>
-                </p>
-              </div>
-            </li>
-            <li className="hprod__item">
-              <div className="hprod__imgbox">
-                <img className="hprod__img" src={socks_11} alt="sock_img" />
-              </div>
-              <div className="hprod__textbox">
-                <h3 className="hprod__name">Men's underwear</h3>
-                <p className="hprod__text">Available for sale</p>
-
-                <p className="hprod__price">
-                  <b>Price</b>: <strong>25 000 so'm</strong>
-                </p>
-              </div>
-            </li>
+            </li>       
           </ul>
         </div>
       </div>
