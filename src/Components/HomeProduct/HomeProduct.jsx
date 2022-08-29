@@ -45,6 +45,19 @@ function HomeProduct() {
         <div className="hprod__wrapper">
           <h2 className="hprod__title">Products</h2>
           <ul className="hprod__list">
+          <li className="hprod__item">
+              <div className="hprod__imgbox">
+                <img className="hprod__img" src={socks36} alt="sock_img" />
+              </div>
+              <div className="hprod__textbox">
+                <h3 className="hprod__name">Quality socks</h3>
+                <p className="hprod__text">Available for sale</p>
+
+                <p className="hprod__price">
+                  <b>Price</b>: <strong>1.5$ (AUD)</strong>
+                </p>
+              </div>
+            </li>
             <li className="hprod__item">
               <div className="hprod__imgbox">
                 <img className="hprod__img" src={socks11} alt="sock_img" />
@@ -313,19 +326,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>3 pair of them 2$ (AUD)</strong>
-                </p>
-              </div>
-            </li>
-            <li className="hprod__item">
-              <div className="hprod__imgbox">
-                <img className="hprod__img" src={socks36} alt="sock_img" />
-              </div>
-              <div className="hprod__textbox">
-                <h3 className="hprod__name">Quality socks</h3>
-                <p className="hprod__text">Available for sale</p>
-
-                <p className="hprod__price">
-                  <b>Price</b>: <strong>1.5$ (AUD)</strong>
                 </p>
               </div>
             </li>
