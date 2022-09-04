@@ -11,14 +11,15 @@ function Intro() {
         <div className="intro__wrapper">
           <div className="intro__aside">
             <h1 className="intro__title">
-            You can find quality and cheap socks only from us
+              You can find quality and cheap socks only from us
             </h1>
             <p className="intro__text">
-              We offer wholesale delivery of socks made of high quality
-              materials to Istanbul (Turkey) ports. We can produce socks of any
-              composition, design and color according to the customer's request.
-              Our product is made of 100% cotton. The quality of Uzbek cotton is
-              excellent.
+              We offer wholesale deliveries of socks from Uzbekistan made of
+              high quality materials at a low price to Perth Airport (WA) and
+              other states of Australia. We can produce socks of any
+              composition, design and color at the request of the customer. Our
+              product is made from 100% cotton. Uzbek cotton is of excellent
+              quality. Terms of payment letter of credit.
             </p>
           </div>
           <div className="intro__bside">
