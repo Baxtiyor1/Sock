@@ -24,14 +24,6 @@ function ContactMain() {
 
     xhttp.open("GET", url + new_message, true);
     xhttp.send();
-    // console.log(
-    //   first_name.value,
-    //   last_name.value,
-    //   email.value,
-    //   phone.value,
-    //   product.value,
-    //   message.value
-    // );
   };
   return (
     <main>
