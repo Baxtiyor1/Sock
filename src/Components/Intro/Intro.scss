@@ -1,6 +1,7 @@
 .intro {
     margin-top: 66px;
-    background-color: #D7C7AD;
+    // background-color: #D7C7AD;
+    background-color: rgb(243, 218, 76);
 
     &__wrapper {
         padding: 55px 0;
@@ -42,7 +43,8 @@
         max-width: 100%;
         height: 450px;
         padding: 40px 60px;
-        background-color: #dbd3c5;
+        // background-color: #dbd3c5;
+        background-color: rgb(252, 236, 147);
         border-radius: 60% 35% 60% 40%;
         box-shadow: 4px 4px 10px #fff;
     }
