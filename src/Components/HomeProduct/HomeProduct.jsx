@@ -409,7 +409,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>0.59$ (AUD)</strong>
-
                 </p>
               </div>
             </li>       
