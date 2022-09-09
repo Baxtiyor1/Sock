@@ -36,7 +36,7 @@ function Header() {
                                 <a className="header__link" href="/contact">Contact</a>
                             </li>
                             <li className="header__item">
-                                <a className="header__link" href="tel: +61450997221">+61 450 997 221</a>
+                                <a className="header__link" href="tel: +61420311975">+61 420 311 975</a>
                             </li>
                         </ul>
                         <button onClick={openModal} className="header__burger"><img src={bar} alt="bar"/></button>
