@@ -57,7 +57,8 @@
     &__button-bg {
         width: 100%;
         height: 100px;
-        background: linear-gradient(183deg, #D7C7AD 50%, #f3ebeb 50%);
+        // background-color: rgb(243, 218, 76);
+        background: linear-gradient(183deg, rgb(243, 218, 76) 50%, #f3ebeb 50%);
     }
 
 }

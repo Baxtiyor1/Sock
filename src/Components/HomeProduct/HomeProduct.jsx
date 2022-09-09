@@ -21,10 +21,10 @@ import socks_22 from "../../Assets/Images/sock1-3.png";
 import socks_25 from "../../Assets/Images/sock1-6.png";
 import socks_26 from "../../Assets/Images/sock1-7.png";
 import socks_29 from "../../Assets/Images/sock1-10.png";
-import socks_34 from "../../Assets/Images/Womens6-PackTurnCuffSock4--6.jpg";
+// import socks_34 from "../../Assets/Images/Womens6-PackTurnCuffSock4--6.jpg";
 import socks11 from "../../Assets/Images/socks11.png";
-import socks12 from "../../Assets/Images/socks12.png";
-import socks13 from "../../Assets/Images/socks13.png";
+// import socks12 from "../../Assets/Images/socks12.png";
+// import socks13 from "../../Assets/Images/socks13.png";
 import socks22 from "../../Assets/Images/socks22.png";
 import socks33 from "../../Assets/Images/socks33.png";
 import socks35 from "../../Assets/Images/socks35.png";
@@ -32,14 +32,13 @@ import socks36 from "../../Assets/Images/socks36.png";
 import socks37 from "../../Assets/Images/socks37.png";
 // import socks39 from "../../Assets/Images/socks39.png";
 import socks40 from "../../Assets/Images/socks40.png";
-import socks1 from "../../Assets/Images/socks1.png";
+// import socks1 from "../../Assets/Images/socks1.png";
 import socks2 from "../../Assets/Images/socks2.png";
-import socks3 from "../../Assets/Images/socks3.png";
-import socks4 from "../../Assets/Images/socks4.png";
+// import socks3 from "../../Assets/Images/socks3.png";
+// import socks4 from "../../Assets/Images/socks4.png";
 import socks5 from "../../Assets/Images/socks5.png";
 import socks6 from "../../Assets/Images/socks6.png";
 import socks7 from "../../Assets/Images/socks7.png";
-import UZB from "../../Assets/Images/UZ.png";
 
 
 function HomeProduct() {
@@ -59,7 +58,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>2$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -72,7 +70,6 @@ function HomeProduct() {
                 <p className="hprod__text">Available for sale</p>
                 <p className="hprod__price">
                   <b>Price</b>: <strong>2$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -85,7 +82,6 @@ function HomeProduct() {
                 <p className="hprod__text">Available for sale</p>
                 <p className="hprod__price">
                   <b>Price</b>: <strong>2$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -99,7 +95,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>2$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -113,7 +108,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>1.5$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -127,21 +121,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>2$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
-                </p>
-              </div>
-            </li>
-            <li className="hprod__item">
-              <div className="hprod__imgbox">
-                <img className="hprod__img" src={sock_7} alt="sock_img" />
-              </div>
-              <div className="hprod__textbox">
-                <h3 className="hprod__name">Quality socks</h3>
-                <p className="hprod__text">Available for sale</p>
-
-                <p className="hprod__price">
-                  <b>Price</b>: <strong>1.5$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -155,7 +134,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>2$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -170,22 +148,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>2$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
-                </p>
-              </div>
-            </li>
-
-            <li className="hprod__item">
-              <div className="hprod__imgbox">
-                <img className="hprod__img" src={socks_34} alt="sock_img" />
-              </div>
-              <div className="hprod__textbox">
-                <h3 className="hprod__name">Quality socks</h3>
-                <p className="hprod__text">Available for sale</p>
-
-                <p className="hprod__price">
-                  <b>Price</b>: <strong>1.5$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -199,7 +161,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>1.5$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -213,7 +174,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>2$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -227,38 +187,10 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>2$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
-             <li className="hprod__item">
-              <div className="hprod__imgbox">
-                <img className="hprod__img" src={socks3} alt="sock_img" />
-              </div>
-              <div className="hprod__textbox">
-                <h3 className="hprod__name">Quality socks</h3>
-                <p className="hprod__text">Available for sale</p>
-
-                <p className="hprod__price">
-                  <b>Price</b>: <strong>2$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
-                </p>
-              </div>
-            </li> 
-            <li className="hprod__item">
-              <div className="hprod__imgbox">
-                <img className="hprod__img" src={socks4} alt="sock_img" />
-              </div>
-              <div className="hprod__textbox">
-                <h3 className="hprod__name">Quality socks</h3>
-                <p className="hprod__text">Available for sale</p>
-
-                <p className="hprod__price">
-                  <b>Price</b>: <strong>2$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
-                </p>
-              </div>
-            </li> 
+         
             <li className="hprod__item">
               <div className="hprod__imgbox">
                 <img className="hprod__img" src={socks5} alt="sock_img" />
@@ -269,7 +201,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>2$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li> 
@@ -283,7 +214,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>2$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -297,7 +227,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>2$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -311,7 +240,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>2$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -325,7 +253,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>1$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -339,7 +266,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>0.5$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -353,7 +279,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>1$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -367,7 +292,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>1.5$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -381,7 +305,19 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>1$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
+                </p>
+              </div>
+            </li>
+            <li className="hprod__item">
+              <div className="hprod__imgbox">
+                <img className="hprod__img" src={sock_7} alt="sock_img" />
+              </div>
+              <div className="hprod__textbox">
+                <h3 className="hprod__name">Quality socks</h3>
+                <p className="hprod__text">Available for sale</p>
+
+                <p className="hprod__price">
+                  <b>Price</b>: <strong>1.5$ (AUD)</strong>
                 </p>
               </div>
             </li>
@@ -395,7 +331,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>1$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -409,7 +344,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>2$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -423,7 +357,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>1$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -437,7 +370,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>2$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -451,7 +383,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>1.5$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -465,7 +396,6 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>2$ (AUD)</strong>
-                  <img className="hprod__uzb" src={UZB} alt="" />
                 </p>
               </div>
             </li>
@@ -479,7 +409,7 @@ function HomeProduct() {
 
                 <p className="hprod__price">
                   <b>Price</b>: <strong>0.5$ (AUD)</strong>
-                    <img className="hprod__uzb" src={UZB} alt="" />
+
                 </p>
               </div>
             </li>       
