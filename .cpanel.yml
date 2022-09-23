@@ -1,0 +1,7 @@
+---
+deployment:
+
+   tasks:
+
+    - export DEPLOYPATH=/home/quality1/repositories/Sock/public
+    - /bin/cp -R * $DEPLOYPATH
